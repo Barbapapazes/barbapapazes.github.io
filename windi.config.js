@@ -77,5 +77,8 @@ module.exports = {
       }),
     },
   },
-  plugins: [require('@tailwindcss/typography'), require('tailwind-scrollbar')],
+  plugins: [
+    require('windicss/plugin/typography'),
+    require('@windicss/plugin-scrollbar'),
+  ],
 }
