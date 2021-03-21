@@ -12,7 +12,8 @@
     "lint:all:markdownlint": "yarn lint:markdownlint --fix",
     "lint:eslint": "eslint --ignore-path .gitignore --ignore-pattern modules/ --ext .js,.vue .",
     "lint:markdownlint": "markdownlint ./content",
-    "lint:prettier": "prettier  \"**/*.{js,json,css,scss,vue,html,md}\""
+    "lint:prettier": "prettier  \"**/*.{js,json,css,scss,vue,html,md}\"",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.{js,json,css,vue,md}": "prettier --write",
