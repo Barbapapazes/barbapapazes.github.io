@@ -32,7 +32,7 @@
     <Section>
       <Title observe>mes compétences</Title>
       <Card>
-        <CardText></CardText>
+        <CardText>lorem</CardText>
       </Card>
     </Section>
     <Section>
